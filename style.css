@@ -1,0 +1,99 @@
+body {
+    background-color:  
+    
+}
+
+.header {
+    height: 100px;
+    width:100%;
+    background-color: white;
+}
+
+img {
+    height: 100px;
+    width: 200px;
+    float: left;
+}
+
+#bild01 {
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+    margin: 2% 0 0 5%;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+   
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color: #8A0808;
+    webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    -ms-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+li.dropdown {
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mover {
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 100px;
+  z-index: 0;
+  animation: move 4s linear infinite alternate; 
+}
+
+@keyframes move {
+  from { z-index: 0; transform: scale(1); }
+  to { z-index: 4; transform: scale(2.5); }
+}
