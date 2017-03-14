@@ -7,13 +7,9 @@
 </head>
 <body>
 <div class="header">
-<a href="../index.php"><img src="logo.png"></a>
+<a href="../index.php"><img src="res/logo.png"></a>
 
 <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li class="dropdown">
@@ -26,7 +22,10 @@
   </li>
 </ul>
 </div class="header">
-<img id="bild01" src="bild01.png">
-<img src="http://s.cdpn.io/3/pacman-ghost-hi_1.png" class="mover">
+<div style="width: 100%; height: 500px; margin-top: 25%; background-color: rgba(255,255,255,0.4)"><h1>JUDIHUI</h1></div>
+<div class="content">
+  <img src="http://s.cdpn.io/3/pacman-ghost-hi_1.png" class="mover">
+</div>
+<div style="width: 100%; height: 500px; margin-top: 25%; background-color: white"></div>
 </body>
 </html>
