@@ -1,4 +1,4 @@
 # Website
 
 ## Introduction
-Website from me and bhohlt
+Website from  ItsWasteD and bhohlt
