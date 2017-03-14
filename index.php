@@ -4,6 +4,7 @@
 	<title>Webdesign</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
 <div class="header">
@@ -22,10 +23,7 @@
   </li>
 </ul>
 </div class="header">
-<div style="width: 100%; height: 500px; margin-top: 25%; background-color: rgba(255,255,255,0.4)"><h1>JUDIHUI</h1></div>
-<div class="content">
-  <img src="http://s.cdpn.io/3/pacman-ghost-hi_1.png" class="mover">
-</div>
-<div style="width: 100%; height: 500px; margin-top: 25%; background-color: white"></div>
+<div style="width: 100%; height: 500px; margin-top: 25%; background-color: rgba(255,255,255,0.4);text-align: center"><h1>Thiemo</h1></div>
+<div style="width: 100%; height: 500px; margin-top: 25%; background-color: rgba(255,255,255,0.4);text-align: center"><h1>David</h1></div>
 </body>
 </html>
