@@ -4,7 +4,7 @@ body, html{
   width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("/Picture/bg.jpg");
+  background-image: url("/res/bg.jpg");
   background-attachment: fixed;
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
