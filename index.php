@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>HTML</title>
-	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	
@@ -19,7 +19,7 @@
 <div class="header">
 	<section id="menubar">
 		<ul>
-			<li><a class="menubutton" href="#menu"><img src="/res/navi.png"></a></li>
+			<li><a class="menubutton" href="#menu"><img src="res/navi.png"></a></li>
 		</ul>
 	</section>
 
