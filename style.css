@@ -8,10 +8,10 @@ body, html{
   background-attachment: fixed;
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
-  
-  font-size: 100%;
-  margin: 0em;
-  padding: 0em;
+	
+    font-size: 100%;
+	margin: 0em;
+	padding: 0em;
 }
 
 .header {
@@ -43,9 +43,9 @@ img{
 }
 
 #logo{
-    height: 100px;
-    width: 200px;
-    float: left;
+  height: 100px;
+  width: 200px;
+  float: left;
 }
 
 #menubar{
@@ -56,12 +56,12 @@ img{
 	display: block;
 	width: 2em;
 	padding: 0.9em;
-    display: none;
+  display: none;
 }
 
 #menubar ul li{
 	display: inline;
-    display: none;
+  display: none;
 }
 
 #menubar ul li a.menubutton{
@@ -77,8 +77,8 @@ nav {
 }
 
 nav.nav {
-    position: block;
-    
+  position: block;
+  
 }
 
 nav ul{
@@ -96,9 +96,9 @@ nav ul li a{
 	font-size: 1.125em;
 	line-height: 2.5em;
   text-decoration: none;
-  padding: 0.563em 0.438em 0.375em 0.438em;
-  transition:background 0.2em;
-  -webkit-transition:background 0.2s;
+	padding: 0.563em 0.438em 0.375em 0.438em;
+	transition:background 0.2em;
+	-webkit-transition:background 0.2s;
 }
 
 nav ul li a:hover{
@@ -149,16 +149,19 @@ nav ul li a.active{
 	}
 
     #menubar ul{
-        display: block;
-    }
+  display: block;
 
-    #menubar ul li{
-        display: inline;
-    }
+}
 
-    #menubar ul li a.menubutton{
-        display: block;
-    }
+#menubar ul li{
+  display: inline;
+ 
+}
+
+#menubar ul li a.menubutton{
+  display: block;
+}
+
 }
 
 
