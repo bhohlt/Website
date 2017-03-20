@@ -25,7 +25,7 @@
 
 	<nav class="nav">
 		<ul>
-			<li><a href="index.php" class="active">Home</a></li>
+			<li><a href="index.php" class="active">home</a></li>
 			<li><a href="php/employ.php">Webdesign</a></li>
 			<li><a href="php/gallery.php">Referenzen</a></li>
 			<li><a href="php/contact.php">Team</a></li>
