@@ -9,3 +9,5 @@ ItsWasted:
 ```javascript
 alert("JS TEST (CODE HIGHLIGHTING)");
 ```
+
+## Part 2
